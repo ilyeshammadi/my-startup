@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  my-startup:
+    image: docker.io/ilyeshammadi/my-startup:0.0.1 # TODO: Update the version number here
+    build: .
+    ports:
+    - "0.0.0.0:9000:3000"
